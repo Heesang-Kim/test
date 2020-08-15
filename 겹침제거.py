@@ -1,5 +1,5 @@
 def solution(arr):
-    llist=[0]
+    llist=[-1]
     a=0
     b=0
     for v in arr:
