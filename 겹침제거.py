@@ -1,17 +1,13 @@
 def solution(arr):
-    llist=[]
-    while len(llist)<1000000:
-        llist.append(0)
-    a=999999
+    llist=[0]
+    a=0
     b=0
     for v in arr:
         if v != llist[a]:
             llist.append(v)
             a+=1
     llist.reverse()
-    while b<1000000:
-        llist.pop()
-        b+=1
+    llist.pop()
     llist.reverse()
     answer=llist
     return answer
