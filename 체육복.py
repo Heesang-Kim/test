@@ -28,4 +28,3 @@ lost=[2,4]
 reserve=[1,3,5]
 
 solution(n, lost, reserve)
-print(answer)
